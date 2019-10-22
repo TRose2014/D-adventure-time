@@ -22,6 +22,8 @@ function AdventurePage() {
   const [button1, setButton1] = useState("Let's go");
   const [button2, setButton2] = useState("Let's gooooo");
 
+  const [image, setImage] = useState("http://pagosafunzone.com/wp-content/uploads/2015/05/Scary-Door-Resident-Evil-Biohazard-Wallpaper.jpg");
+
   const updateStory = () => {
     setParagraph1(version2.choice1);
     setParagraph2(version2.choice2);
@@ -31,6 +33,8 @@ function AdventurePage() {
     setButton1(version2.button1);
     setButton2(version2.button2);
 
+    setImage(version2.image1);
+
     if (button1 === version2.button1 && button2 === version2.button2) {
       setParagraph1(version2.choice4);
       setParagraph2(version2.choice5);
@@ -39,6 +43,8 @@ function AdventurePage() {
 
       setButton1(version2.button3);
       setButton2(version2.button4);
+
+      setImage(version2.image2);
     } else if (
       button1 === version2.button3 &&
       button2 === version2.button4
@@ -50,6 +56,8 @@ function AdventurePage() {
 
       setButton1(version2.button5);
       setButton2(version2.button6);
+
+      setImage(version2.image3);
     }
   };
 
@@ -63,6 +71,8 @@ function AdventurePage() {
       </header>
 
       <Story paragraph1={paragraph1} paragraph2={paragraph2} />
+
+      <img src={image} alt="Scary" />
 
       <div>
         <h4>{decision}</h4>
