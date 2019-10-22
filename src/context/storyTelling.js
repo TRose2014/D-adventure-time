@@ -32,13 +32,13 @@ const version2 = {
 
   button1: 'go',
   button2: 'stay',
-  button3: 'go',
-  button4: 'stay',
-  button5: 'go',
-  button6: 'stay',
-  button7: 'go',
-  button8: 'stay',
-  button9: 'go'
+  button3: 'go now',
+  button4: 'stay here',
+  button5: 'go away',
+  button6: 'stay home',
+  button7: 'go -y home-y',
+  button8: 'stay clear',
+  button9: 'go alone'
 };
 
 module.exports = version2;

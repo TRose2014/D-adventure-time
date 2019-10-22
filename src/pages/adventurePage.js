@@ -28,28 +28,28 @@ function AdventurePage() {
 
     setDecision(version2.choice3);
 
-    setButton1("I changed too");
-    setButton2("Hellz yea");
+    setButton1(version2.button1);
+    setButton2(version2.button2);
 
-    if (button1 === "I changed too" && button2 === "Hellz yea") {
+    if (button1 === version2.button1 && button2 === version2.button2) {
       setParagraph1(version2.choice4);
       setParagraph2(version2.choice5);
 
       setDecision(version2.choice6);
 
-      setButton1("changed again");
-      setButton2("changed again again");
+      setButton1(version2.button3);
+      setButton2(version2.button4);
     } else if (
-      button1 === "changed again" &&
-      button2 === "changed again again"
+      button1 === version2.button3 &&
+      button2 === version2.button4
     ) {
       setParagraph1(version2.choice7);
       setParagraph2(version2.choice8);
 
       setDecision("Grab the gun or run?");
 
-      setButton1("super changed");
-      setButton2("super-duper changed");
+      setButton1(version2.button5);
+      setButton2(version2.button6);
     }
   };
 
