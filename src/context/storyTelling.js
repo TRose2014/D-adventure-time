@@ -38,7 +38,13 @@ const version2 = {
   button6: 'stay home',
   button7: 'go -y home-y',
   button8: 'stay clear',
-  button9: 'go alone'
+  button9: 'go alone',
+
+  image1: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HMz5Pc0zUVAPVvmPXTzAmbrISDifT6AhycVkpRMY5EO585D89A&s',
+  image2: 'https://data.whicdn.com/images/18177883/original.jpg',
+  image3: 'https://image.shutterstock.com/image-photo/trees-street-lamps-on-quiet-260nw-1056881288.jpg',
+  image4: 'https://www.getitc.com/images/blog/489594315_scary_town.jpg',
+  image5: 'https://images-na.ssl-images-amazon.com/images/I/81OMwHBE5BL._SX425_.jpg',
 };
 
 module.exports = version2;
