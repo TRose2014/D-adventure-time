@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Button from "../components/button/button";
 import Story from "../components/story/story";
 import version2 from "../context/storyTelling";
+import '../styles/adventure-style.scss'
 
 function AdventurePage() {
   const [paragraph1, setParagraph1] = useState(
@@ -62,7 +62,7 @@ function AdventurePage() {
   };
 
   return (
-    <>
+    <div className="container">
       <header>
         <Header />
         <li>
@@ -80,7 +80,7 @@ function AdventurePage() {
         <Button name={button2} onClick={updateStory} />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
