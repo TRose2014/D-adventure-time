@@ -10,6 +10,8 @@ const version1 = {
   choice8: 'He strangled her and burned down the house. The end'
 };
 
+//Can have the corresponding stories, choices and buttons in an object here rather than hard coding info in advenuturePage
+
 const version2 = {
   Story1: 'blah blah blah',
   Story2: 'blah blah blah',
